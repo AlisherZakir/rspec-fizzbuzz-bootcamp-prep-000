@@ -2,8 +2,9 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n)
-  result = nil
+  result = ""
   result += "Fizz" if n % 3 == 0
   result += "Buzz" if n % 5 == 0
+  return nil if result.length == 0
   result
 end
